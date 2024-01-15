@@ -1,9 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
 
 
+
 * {
     font-family: Mulish;
     border: 1px solid salmon;
+
 }
 
 
@@ -46,8 +48,6 @@ nav li {
 
 nav>ul>li>a {
     text-decoration: none;
-
-
     color: var(--Dark-02, #424247);
     text-align: center;
     font-size: 18px;
@@ -70,7 +70,40 @@ nav>ul>li>a {
 /* ----------------------------------------------------------------------------------------------------- */
 
 /* banner start here   */
-.banner{
-    background-image: url(../Images/Group13.png);
-    width: 100%;
+.banner {
+    border-radius: 16px;
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url(../Images/Group13.png);
+    height: 500px;
+    width: 1170px;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.banner h1 {
+    text-align: center;
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    padding-top: 100px;
+    padding-bottom: 20px;
+
+}
+
+.banner p {
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    /* padding-top: 24px; */
+    /* padding-bottom: 60px; */
+
+}
+
+.banner li {
+    list-style: none;
 }
