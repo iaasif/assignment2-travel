@@ -626,7 +626,7 @@ li {
 @media screen and (max-width:600px) {
     .nav-bar {
         display: grid;
-        grid-template-columns: min-content;
+        grid-template-columns: repeat(1,1fr);
     }
 
     .banner {
@@ -634,8 +634,24 @@ li {
         width: auto;
     }
 
+    .populer-tour{
+        display:grid;
+        grid-template-columns: repeat(1.1fr);
+    }
 
+    .choose-container1{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .choose{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
 
-
+    .news-letter-container{
+        width:auto;
+        align-items: center;
+        flex-direction: column;
+    }
 
 }
