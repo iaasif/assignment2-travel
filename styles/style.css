@@ -31,7 +31,7 @@
 
 
 /* nav start here   */
-/* ----------------------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------------------------------------------------------------------- */
 
 .left-nav {
     display: flex;
@@ -224,8 +224,112 @@ li {
 
 /* ------------------------------------------------------------------------------------------------------------------------------------------------------ */
 
-.Destination{
+.destination {
+    display: grid;
     justify-content: center;
     align-items: center;
+
+
+}
+
+.destination-img {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin: 24px;
+
+}
+
+.row1 {
+    grid-template-columns: repeat(2, 1fr);
+
+
+}
+
+.row2 {
+    grid-template-columns: repeat(3, 1fr);
+
+}
+
+.row3 {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.destination-img>div>img {
+    margin: 14px;
+    padding: 14px;
+}
+
+.img-container {
+    position: relative;
+    text-align: center;
+}
+
+.Maldives {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-350%, -150%);
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.Indonesia {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(150%, -150%);
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+
+}
+
+.Srilanka {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-460%, -150%);
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 28px;
+    font-weight: 800;
+}
+
+.North-America {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-40%, -150%);
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.Kashmir {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(350%, -150%);
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
 
 }
